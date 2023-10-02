@@ -1,6 +1,8 @@
 import type { SiteConfig } from "@/types";
 
 export const siteConfig: SiteConfig = {
+
+
 	// Used as both a meta property (src/components/BaseHead.astro L:31 + L:49) & the generated satori png (src/pages/og-image/[slug].png.ts)
 	author: "Jin",
 	// Meta property used to construct the meta title property, found in src/components/BaseHead.astro L:11
@@ -26,14 +28,14 @@ export const siteConfig: SiteConfig = {
 export const menuLinks: Array<{ title: string; path: string }> = [
 	{
 		title: "Home",
-		path: "/",
+		path: "/jin-recipes/",
 	},
 	{
 		title: "About",
-		path: "/about/",
+		path: "/jin-recipes/about/",
 	},
 	{
 		title: "Recipes",
-		path: "/posts/",
+		path: "/jin-recipes/posts/",
 	},
 ];

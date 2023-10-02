@@ -2,7 +2,7 @@
 import { Image } from "astro:assets";
 
 import PageLayout from "@/layouts/Base";
-import aboutImg from "@/assets/jin.png";
+import aboutImg from "@/assets/jin2.0.png";
 
 const meta = {
 	title: "About",
@@ -11,7 +11,7 @@ const meta = {
 ---
 
 <PageLayout meta={meta}>
-	<h1 class="title">About</h1>
+	<h1 class="title underline-offset-4 underline decoration-pink-300 decoration-solid">About</h1>
 	<div class="space-y-6">
 		<div class="flex justify-center my-4">
 			<Image
@@ -19,6 +19,8 @@ const meta = {
 				alt="A cartoon cactus looking at the 'Astro.build' logo"
 				loading="eager"
 				fetchpriority="high"
+				width={400}
+				
 			/>
 		</div>
 		<div>
